@@ -1,0 +1,236 @@
+.navbar_for_change{
+	border-bottom:1px solid #eee;
+}
+.li_for_logo_img img{
+	height:25px;
+}
+.a_class_for_item_menu{
+	font-weight:bolder;
+}
+.li_for_header_item{
+	margin-left:15px;
+	margin-right:15px;
+}
+.empty_li{
+	width:12%;
+}
+.class_for_hover_effect_menu{
+	transition:all 0.1s;
+}
+.class_for_hover_effect_menu:hover{
+	border-bottom:2px solid black;
+}
+.for_padding_top{
+	padding-top:40px;
+}
+.full_width_div:hover{
+ 	cursor:pointer;
+	box-shadow: 0 0 15px 2px #aaa;
+}
+.full_width_div:hover .img_class_games{
+ 	transform: scale(1.5);
+}
+.full_width_div{
+	width:100%;
+	overflow:hidden;
+}
+.class_for_custom_bootstrap{
+	margin-bottom:10px;
+	padding-right:0px!important;
+}
+.img_class_games{
+	width:100%;
+	object-fit: cover;
+	height:200px;
+	transition:all .8s ease-in-out;
+}
+.div_for_title{
+	background:#3175ca;
+	padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color:#fff;
+    text-transform:uppercase;
+}
+.div_for_image{
+	overflow:hidden;
+}
+.third_part_bottom{
+	background:#efefef;
+	padding:10px 0;
+	margin-left:13px;
+}
+.footer_part{
+	margin-left:13px;
+	border-top:2px solid black;
+}
+.bottom_content_menu_part{
+	transition:all 0.1s;
+}
+.bottom_content_menu_part:hover{
+	border-bottom:1px solid black;
+}
+.a_for_bottom_content_menu:hover{
+	color:black;
+}
+.a_for_bottom_content_menu{
+	text-decoration: none!important;
+	color:black;
+}
+.footer_ul{
+	list-style-type:none;
+}
+.footer_ul_li{
+	display:inline-block;
+	margin-right:15px;
+	transition:all .1s;
+}
+.a_footer_menu{
+	color:black;
+}
+.a_footer_menu:hover{
+	text-decoration: none;
+	color:black;
+	border-bottom:1px solid black;
+}
+.bottom_desc{
+	padding: 10px 0 0 55px;
+    color: #222;
+    font-size: 12px;
+}
+.start_image{
+	background: #d4d4d4;
+}
+.start_image img{
+	width: auto;
+    height: auto;
+    max-width: 800px;
+    max-height: 350px;
+}
+.btn_answers:hover{
+	color: white;
+    background-color: #ca318b;
+}
+.progress_span{
+	    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+.progress{
+	background-color: #eca4ca !important;
+}
+.progress-bar{
+    background-color: #ca318b !important;
+}
+.joker, .joker:hover{
+    color: #fff;
+    background-color: #fc853f;
+}
+.joker_m{
+	background-color: rgba(0,0,0,.85);
+}
+.joker_modal{
+	background-color: transparent !important;
+	color: white;
+}
+.a_for_game_page{
+	text-decoration:none!important;
+}
+.quiz_image_div{
+	position:relative;
+	background:#efefef;
+	padding:0px!important;
+}
+.img_for_quiz{
+	width:100%;
+}
+.div_for_title_game{
+	position:absolute;
+	background:#fff;
+	opacity:0.7;
+	padding:5px;
+	color:#000;
+	width:100%;
+}
+.btn_for_start_quiz{
+	width:100%;
+	color:#ca318b;
+	text-transform:uppercase;
+	box-shadow: 0 3px 2px -2px gray;
+}
+.result_img, .share{
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.interesting{
+	padding: 10px;
+    background-color: #efefef;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.confirmed, .confirmed:hover{
+	background-color: #ca318b;
+	margin: 20px;
+	color: white;
+	width: 50%;
+	text-decoration: none;
+}
+
+
+@media (min-width: 991px) {
+  .text-md-center {
+    text-align: center;
+  }
+
+}
+@media (min-width: 768px) {
+  .start_quiz{
+  	margin-left: 16.666667%;
+  }
+  .game-custom{
+	min-height: 560px;
+  	margin-left: 16.666667%;
+  }
+  .result_img, .share{
+	padding: 0 40px 0 40px;
+  }
+}
+@media (max-width: 500px){
+  	.div_for_title_game h1{
+	  	font-size: 12px !important;
+	}
+	.start_quiz{
+		
+		font-size: 10px;
+    	line-height: 140%;
+	}
+	.footer_ul {
+		padding: 0;
+    	font-size: 13px;
+	}
+	.footer_part{
+		padding:0px !important;
+	}
+	.bottom_desc{
+		padding-left:0px !important;
+	}
+  	.game-custom{
+		min-height: 390px;
+  	}
+  	.quiz_start_title{
+  		font-size: 14px !important;
+  	}
+  	.btn_answers{
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+  		background-color: #eee;
+  	}
+  	.start_image img{
+  		width: 100%;
+  	}
+}
